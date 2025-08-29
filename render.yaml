@@ -7,4 +7,7 @@ services:
     startCommand: python rutube.py
     build:
       pythonVersion: 3.11
-   
+    envVars:
+      - key: BOT_TOKEN
+        value: 8476332708:AAGxLQqGqRidMZwfa_5C2Mx5B0efrVkyxpo
+
